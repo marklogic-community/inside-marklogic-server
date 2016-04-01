@@ -1,2 +1,3 @@
 # inside-marklogic-server
-Code examples for the inside MarkLogic book
+
+Code examples for the Inside MarkLogic Server book.
