@@ -1,0 +1,5 @@
+SELECT ?school
+WHERE {
+  ?school <http://example.org/has-mascot> ?mascot .
+  ?mascot <http://example.org/is-type> "bear"
+}

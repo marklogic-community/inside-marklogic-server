@@ -1,0 +1,6 @@
+<four>{
+  cts:and-query((
+    cts:element-range-query(xs:QName("price"), ">=", 5),
+    cts:element-range-query(xs:QName("price"), "<", 10)
+  ))
+}</four>

@@ -1,0 +1,6 @@
+<five>{
+  cts:and-query((
+    cts:element-range-query(xs:QName("price"), ">=", 7),
+    cts:element-range-query(xs:QName("price"), "<", 20)
+  ))
+}</five>

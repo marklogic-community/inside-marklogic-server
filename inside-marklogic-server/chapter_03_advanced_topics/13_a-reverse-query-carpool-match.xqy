@@ -1,0 +1,29 @@
+xdmp:document-insert(
+  "/passenger.xml",
+  <passenger>
+    <from>37.739976,-121.915821</from>
+    <to>37.53244,-122.270969</to>
+    <gender>female</gender>
+    <preferences>{
+      cts:and-query((
+        cts:not-query(
+          cts:element-word-query(
+            xs:QName("music"),
+          "country")
+        ),
+        cts:element-range-query(
+          xs:QName("cost"),
+          "<=",
+          20
+        ),
+        cts:element-value-query(
+          xs:QName("smoke"),
+          "no"
+        ),
+        cts:element-value-query(
+          xs:QName("gender"),
+          "female"
+      )))
+    }</preferences>
+  </passenger>
+)

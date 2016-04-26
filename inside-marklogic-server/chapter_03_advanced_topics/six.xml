@@ -1,0 +1,3 @@
+<six>{
+  cts:element-range-query(xs:QName("price"), ">=", 15)
+}</six>

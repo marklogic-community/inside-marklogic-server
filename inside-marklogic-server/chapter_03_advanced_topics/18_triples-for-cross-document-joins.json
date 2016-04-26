@@ -1,0 +1,10 @@
+"triple": {
+  "subject": tweet-uri,
+  "predicate": "http://example.org/has-author",
+  "object": author-uri
+}
+"triple": {
+  "subject": author-uri,
+  "predicate": "http://example.org/follows",
+  "object": author-uri
+}

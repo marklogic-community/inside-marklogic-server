@@ -1,0 +1,15 @@
+<query>
+  <cts:and-query xmlns:cts="http://marklogic.com/cts">
+    <cts:word-query>
+      <cts:text xml:lang="en">dog</cts:text>
+    </cts:word-query>
+    <cts:element-word-query>
+      <cts:element>name</cts:element>
+      <cts:text xml:lang="en">Champ</cts:text>
+    </cts:element-word-query>
+    <cts:element-value-query>
+      <cts:element>gender</cts:element>
+      <cts:text xml:lang="en">female</cts:text>
+    </cts:element-value-query>
+  </cts:and-query>
+</query>
